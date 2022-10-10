@@ -4,8 +4,8 @@ const profissao = "designer";
 const idade = 43;
 const lugarSonho = "Lençóis Maranhenses";
 
-console.log(nome);
-console.log(email);
-console.log(profissao);
-console.log(idade);
-console.log(lugarSonho);
+console.log(typeof nome);
+console.log(typeof email);
+console.log(typeof profissao);
+console.log(typeof idade);
+console.log(typeof lugarSonho);
