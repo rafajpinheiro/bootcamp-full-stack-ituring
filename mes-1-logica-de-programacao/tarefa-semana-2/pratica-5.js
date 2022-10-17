@@ -1,6 +1,6 @@
-let precoAoCliente = function calculaValor(valorProduto, desconto){
+let calculaValor = function(valorProduto, desconto){
     valorFinal = valorProduto - (valorProduto * (desconto/100));
     return valorFinal;
 }
 
-console.log(precoAoCliente);
+console.log(calculaValor(100, 10));
