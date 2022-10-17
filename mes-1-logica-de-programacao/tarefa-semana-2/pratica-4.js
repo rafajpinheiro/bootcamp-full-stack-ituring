@@ -1,6 +1,6 @@
 function calculaValor(valorProduto, desconto){
     valorFinal = valorProduto - (valorProduto * (desconto/100));
-    console.log(valorFinal);
+    return valorFinal;
 }
 
-calculaValor(100, 10);
+console.log(calculaValor(100, 10));
