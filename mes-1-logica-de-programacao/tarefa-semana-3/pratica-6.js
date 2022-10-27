@@ -2,12 +2,14 @@ let series = ["Breaking Bad", "Game of Thrones", "Stranger Things", "Chernobyl",
 
 
 function buscaTermo(termo, lista){
+    let novaLista = [];
+
     for (let i=0; i<lista.length; i++) {
-        if (series[i].includes(termo))
-        return series[i];
+        if (lista[i].includes(termo))
+        novaLista.push(lista[i]);
     }
-    return undefined;
+    return novaLista;
 
 }
 
-console.log(buscaTermo("an", series));
+console.log(buscaTermo("Th", series));
